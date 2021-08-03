@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <title>Fake_Google</title>
     <script src="script.js" defer></script>
 </head>
 <body>
    <header>
+       <section class="left-nav">
        <nav>
            <ul>
             <li><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a></li>
             <li><a href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
+            </ul>
+        </nav>
+        </section>
+        <section class="right-nav">
+        <nav>
+            <ul>
             <li><a href="https://www.google.com/gmail/">Gmail</a></li>
             <li><a href="https://www.google.co.uk/imghp?hl=en&ogbl">Images</a></li>
            </ul>
-       </nav>
+        </nav>
+        </section>
+       
     </header>
        <section>
            <img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt=google-logo>
@@ -25,8 +34,10 @@
        <section>
            <form id="form">
                <input type="search" id="search-bar">
-               <button id="search-btn">Google Search</button>
-               <button id="lucky-btn">I'm Feeling Lucky</button>
+               <div id="buttons">
+                   <button id="search-btn">Google Search</button>
+                <button id="lucky-btn">I'm Feeling Lucky</button>
+                </div>
            </form>
            <div id='result'></div>
        </section>
