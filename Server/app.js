@@ -18,8 +18,7 @@ app.get('/', (req,res)=>{
 
 //return the first 10 items in cat
 app.get('/cat', (req,res)=>{
-    // res.send(cat.slice(0,10));
-    res.send(cat);
+    res.send(cat.slice(0,10));
 })
 
 //return the first 10 items in dog
