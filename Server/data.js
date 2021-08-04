@@ -1,0 +1,25 @@
+const cat = [
+    {title : `Cats (2019 film) - Wikipedia`, link : `https://en.wikipedia.org/wiki/Cats_(2019_film)`, text : `The cat (Felis catus) is a domestic species of small carnivorous mammal.`},
+    {title : `Cats Protection | UK's Largest Feline Welfare Charity`, link : `https://www.cats.org.uk/`, text : `We are the UK's leading feline welfare charity. Donate online today. Cats and their welfare are at the centre of everything we do. Donate today.`},
+    {title : `Cat | global-selector | Caterpillar`, link : `https://www.cat.com`, text : `Genuine enabler of sustainable world progress and opportunity, defined by the brand attributes of global leadership, innovation and sustainability.`},
+    {title : `cat | Breeds & Facts | Britannica`, link : `https://www.britannica.com/animal/cat`, text : `Cat, domesticated member of the family Felidae, order Carnivora, and the smallest member of that family.`},
+    {title : `Cats the Musical • Official Website and Tickets`, link : `https://www.catsthemusical.com/`, text : `Andrew Lloyd Webber's record-breaking, award-winning, family favourite West End and Broadway musical CATS - book your tickets today!`},
+    {title : `Cat Care Tips, Advice & Health Information | RSPCA`, link : `https://www.rspca.org.uk/adviceandwelfare/pets/cats`, text : `If you're a cat owner or cat lover, check out our expert advice across a range of topics to help you take care of your cat and keep them happy and healthy.`},
+    {title : `Meet the cats | Battersea Dogs & Cats Home`, link : `https://www.battersea.org.uk/cats/cat-rehoming-gallery`, text : `Meet all the Battersea cats, find out about rehoming and start your search for your perfect feline friend.​`},
+    {title : `Cat | National Geographic`, link : `https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat`, text : ``},
+    {title : `Cat Nutrition Tips | ASPCA`, link : `https://www.aspca.org/pet-care/cat-care/cat-nutrition-tips`, text : `Overweight Cats · Remove the pet from the room when the family eats. · Feed your pet several small meals throughout the day.`},
+    {title : `The hidden world of cats: what our feline friends are doing when we’re not looking`, link : `https://www.theguardian.com/lifeandstyle/2021/jul/22/hidden-world-cats-what-feline-friends-doing-when-were-not-looking`, text : `In Britain, most pet cats are free to roam, but where do they go and what do they get up to?`}
+]
+const dog = [
+    {title : `Dog - Wikipedia`, link : `https://en.wikipedia.org/wiki/Dog`, text : `The domestic dog is a domesticated descendant of the wolf. The dog derived from an ancient, extinct wolf, and the modern grey wolf is the dog's nearest ...`},
+    {title : `Dogs Trust: Dogs Rehoming & Dog Rescue Charity`, link : `https://www.dogstrust.org.uk/`, text : `Dogs Trust is the UK's largest Dog Welfare Charity. Looking to rehome a rescue dog or to donate to an animal charity? Visit us today to find out more!`},
+    {title : `Getting a dog | The Kennel Club`, link : `https://www.thekennelclub.org.uk/getting-a-dog/`, text : `Should you buy a pedigree puppy or get a dog from a breed rescue? Let's help you find your new best friend.`},
+    {title : `All Dog Breeds - Complete List of Dog Profiles - DogTime`, link : `https://dogtime.com/dog-breeds/profiles`, text : `Detailed profiles of more than 200 dog breeds. Includes personality, history, dog pictures, dog health info, and more. Find the dog breed that is right for ...`},
+    {title : `Dog Rehoming And Adoption - How It Works | RSPCA`, link : `https://www.rspca.org.uk/findapet/rehomeapet/process/rehomeadog`, text : `How to adopt or rehome a dog · Step 1: Find a dog or puppy online · Step 2: Complete a rehoming application form · Step 3: Get to know your chosen dog · Step 4: ...`},
+    {title : `Meet The Dogs Ready To Be Loved | Battersea`, link : `https://www.battersea.org.uk/dogs/dog-rehoming-gallery`, text : `These Battersea dogs are all ready to find a new home. Register your details with our experts here.`},
+    {title : `100+ Dogs Pictures | Download Free Images on Unsplash`, link : `https://unsplash.com/s/photos/dogs`, text : `Download the perfect dogs pictures. Find over 100+ of the best free dogs images. Free for commercial use ✓ No attribution required ✓ Copyright-free.`},
+    {title : `These are the 13 rarest adorable dog breeds in the UK`, link : `https://www.scotsman.com/lifestyle/family-and-parenting/here-are-the-13-rarest-adorable-dog-breeds-in-the-uk-3302122`, text : ``},
+    {title : `Dog Health Care Advice & Tips For Pet Owners | Vets Now`, link : `https://www.vets-now.com/pet-care-advice/category/dog/`, text : `Dog health care advice from Vets Now. We have a wealth of veterinary dog care information and tips for pet owners to help keep your dog safe and happy.`},
+    {title : `Dog Walking Jobs, Dog Sitting and Daycare Jobs UK`, link : `https://www.dogwalkingnow.co.uk/jobs`, text : `Find Dog Walking Jobs, Dog Sitting Work and Dog Walker Work across the UK.`},
+]
+module.exports = {dog, cat}
