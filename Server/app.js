@@ -26,21 +26,13 @@ app.get('/dog', (req,res)=>{
     res.send(dog.slice(0,10));
 })
 
-
+//returns random item from dog/cat
 app.get('/random', (req,res)=>{
-//     let randomCatSearch = cat[Math.floor(Math.random()*cat.length)];
-//     res.send(randomCatSearch)
-// })
-
     if (Math.floor(Math.random()*2) %2 == 0){
         res.send(cat[Math.floor(Math.random()*cat.length)]);
     } else{
         res.send(dog[Math.floor(Math.random()*dog.length)]);
     }
 })
-
-// app.get('/random', (req,res)=>{
-
-// })
 
 module.exports = app;
